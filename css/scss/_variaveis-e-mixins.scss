@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Digital-7';
+    src: url('../../digital-7.ttf');
+}
+
+// Cores
+$bg-color: #5D67E9;
+$bg-color2: #333333;
+$color: #eeeeee;
+$color2: #cccccc;
+
+// tipografia
+$fonte1: 'Digital-7', sans-serif;
+
+//mixin tipografia
+@mixin tipografia1{
+    font-family: $fonte1;
+    font-size: 24px;
+}
+
+@mixin tipografia2{
+    font-family: $fonte1;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+//mixin flex
+@mixin myFlex1 {
+    display: flex;
+    flex-direction: column;
+}

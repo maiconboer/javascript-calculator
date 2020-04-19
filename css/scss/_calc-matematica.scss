@@ -1,0 +1,66 @@
+.matematica .box {
+   @include myFlex1;
+   justify-content: center;
+   max-width: 300px;
+   min-width: 220px;
+   margin: 0 auto;
+   box-sizing: border-box;
+}
+
+.screen {
+    @include myFlex1;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100px;
+    padding: 10px;
+    background-color: $bg-color2;
+    color: $color;
+}
+
+.inputData {
+    display: flex;
+    flex-wrap: wrap;
+    @include tipografia1;
+}
+
+.historic {
+    height: 30px;
+    position: absolute;
+    top: 200px;
+    @include tipografia2;
+    font-weight: 100;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    background-color: $color2;
+}
+
+.btn button {
+    width: 100px;
+    height: 70px;
+    font-size: 20px;
+    margin: 1px 1px 1px 1px;
+    border: none;
+    @include tipografia2;
+}
+
+.btn button:hover {
+    background-color: $color2;
+}
+
+.sound {
+    background-image: url('../../img/mudo.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40px;
+}
+
+.sound.ativo {
+    background-image: url('../../img/volume.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40px;
+}
