@@ -1,6 +1,6 @@
 export default class Calculator {
     constructor() {
-        this.audio = new Audio('click.mp3');
+        this.audio = new Audio('../../assets/audio/click.mp3');
         this.audioOnOff = false;
         this.point = [];
         this.checkpoint = [];
