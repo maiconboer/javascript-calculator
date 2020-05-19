@@ -16,4 +16,4 @@ Calculadora - Javascript
 
 
 
-![](/img/photo.png)
+![](assets/img/photo.png)
