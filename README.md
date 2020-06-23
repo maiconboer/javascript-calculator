@@ -1,5 +1,5 @@
 # javascript-calculator
-Calculadora - Javascript
+Calculadora - Javascript 📈
 
 ## Realiza:
 - Soma.
